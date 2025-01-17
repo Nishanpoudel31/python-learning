@@ -1,0 +1,5 @@
+print("Hello world")
+print("Its me Nishan Poudel")
+print("I am trying to learn python.")
+print("I am living in kausaltar.")
+print("My home country is Nepal.")
