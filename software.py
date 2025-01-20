@@ -1,0 +1,13 @@
+import tkinter as tk
+root = tk.Tk()
+root.title("Nishan Bill Split Software")
+root.geometry("600x500")
+label1= tk.Label(root,text="Enter Total Amount: ")
+label1.pack()
+textbox1 = tk.Entry(root)
+textbox1.pack()
+label2= tk.Label(root,text="Enter Total People: ")
+label2.pack()
+textbox2 = tk.Entry(root)
+textbox2.pack()
+root.mainloop()
