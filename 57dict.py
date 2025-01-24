@@ -22,6 +22,10 @@ vegetables={
     "Gourd":"187",
     "Pumpkin":"147"
 }
+
+vegetables['masu']=1000
+vegetables['khasi']=1500
+del vegetables['Saag']
 for k,v in vegetables.items():
     print(f"The price of {k} is {v}.")
 
